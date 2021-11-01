@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { List, Button } from 'semantic-ui-react';
 import { getMessages } from '../redux/Messages';
-import './App.css';
 
 const Greeting = () => {
   const messages = useSelector((state) => state.messageReducer);
