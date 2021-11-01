@@ -1,24 +1,64 @@
-# README
+# HelloWorld-react
+> This project is about getting our hands dirty with a Rails app with react. The main go is to connect a Rails and a react as one app, Rails for the backend, and react for the UI.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+  React
+- Ruby
+- Ruby on Rails
 
-Things you may want to cover:
+## Live Demo
 
-* Ruby version
+Not yet
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+Ruby: 2.6.3
+Rails: 5.2.3
+Postgres: >=9.5
+Node.js
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+Instal gems with:
 
-* Deployment instructions
+```
+bundle install
+```
 
-* ...
+Setup database with:
+
+```
+   rails db:create
+   rails db:migrate
+```
+
+### Usage
+
+Start server with:
+
+```
+    rails server
+```
+
+Open `http://localhost:3000/` in your browser.
+
+## Author
+
+## Elisha Kyakopo
+
+- Linkedin: [Elisha Kyakopo](https://www.linkedin.com/in/elisha-kyakopo/)
+  
+- Github: [@elisha2kyakpo1](https://github.com/elisha2kyakpo1)
+- Twitter: [@elisha1k](https://twitter.com/Elisha1k)
+
+## Contributions
+
+Contributions, issues and requests are welcome
+
+## Show support
+
+Give a star if you like the project
